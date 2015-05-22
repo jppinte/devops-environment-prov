@@ -1,0 +1,24 @@
+{
+    "serviceName": "DBCS_REST1",
+    "version": "12.1.0.1",
+    "level": "PAAS",
+    "edition": "EE",
+    "subscriptionType": "HOURLY",
+    "description": "Description For Test Service",
+    "backupDestination": "BOTH",
+    "cloudStorageContainer" : "Storage-froracle88869/backup_container",
+    "cloudStorageUser" : "jean.philippe.pinte@oracle.com",
+    "cloudStoragePwd" : "froracle88869",
+    "shape": "OC3",
+    "parameters": [
+        {
+            "type": "db",
+            "usableStorage": "10",
+            "adminPassword": "Manager12#",
+	    "sid":"ORCL",
+            "pdb":"PDB1", 	
+            "failoverDatabase": "no",
+            "vmPublicKeyText": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAxbbDc4Y8BswG0Nt06dm5mWmZDYb5y5EKXXt9LAnaSHZE0fFAKauvnNPgpH6M+V8eG5XVjxNGJ/lI2MrN5OhO6xUP6qtzHk2NOZOlJUKmy/DeUqBbkyCsH8jpigTXA0Xqp/BysUrdTKTAldFOVpks2TNar0QsiQMnaRqJrCDQqBf+hp5gxqxYg8qXNxGOdN+f93B/Wcof0q+SlkDMhCLBRFZNFLrEHsvu12OxZmNgr1Wa4YjWS5OtzWXwD1RVXxX6Nh1Y2w+z3x1ymWO5qLb+MQtOdiH4iQWIZMoSjk4TaGiiYerUVqRY4KqFwpgLxF4lDq3yi+RSdL3yOSstKvGXmw== rsa-key-20150105"
+        }
+                  ]
+}
